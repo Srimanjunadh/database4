@@ -165,6 +165,6 @@ app.post('/login', async (req, res) => {
 // Start the server
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-  console.log(`https://your-vercel-client-url.vercel.app`);
+   console.log(`Server running on http://localhost:${PORT}`);
 });
 
